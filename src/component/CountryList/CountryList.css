@@ -1,0 +1,28 @@
+.country-list {
+    /* justify-content: center; */
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+}
+
+.country-list > p {
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+p:hover {
+    color: rgb(147, 195, 238);
+    transform: scale(1.1);
+    transition: ease-out 0.25s;
+}
+
+p:active {
+    color: rgb(7, 112, 95);
+    transform: scale(1.1);
+    /* transition: ease-out 0.25s; */
+}
